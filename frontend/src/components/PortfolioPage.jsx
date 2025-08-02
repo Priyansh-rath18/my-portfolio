@@ -96,10 +96,10 @@ const PortfolioPage = () => {
             </motion.div>
             
             <div className="hidden md:flex space-x-8">
-              {['Home', 'About', 'Skills', 'Certificates', 'Projects', 'Contact'].map((item, index) => (
+              {['Home', 'About', 'Skills', 'Achievements', 'Projects', 'Contact'].map((item, index) => (
                 <button
                   key={item}
-                  onClick={() => scrollToSection([heroRef, aboutRef, skillsRef, certificatesRef, projectsRef, contactRef][index])}
+                  onClick={() => scrollToSection([heroRef, aboutRef, skillsRef, achievementsRef, projectsRef, contactRef][index])}
                   className={`px-3 py-2 rounded-lg transition-all duration-300 ${
                     currentSection === index 
                       ? 'text-blue-400 bg-blue-400/10' 
