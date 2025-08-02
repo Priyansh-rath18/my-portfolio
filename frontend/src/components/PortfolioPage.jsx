@@ -41,7 +41,7 @@ const PortfolioPage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = [heroRef, aboutRef, skillsRef, projectsRef, contactRef];
+      const sections = [heroRef, aboutRef, skillsRef, certificatesRef, projectsRef, contactRef];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
       
       sections.forEach((ref, index) => {
