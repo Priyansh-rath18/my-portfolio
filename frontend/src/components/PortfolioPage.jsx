@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 import { Card, CardHeader, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import ParticleBackground from './ParticleBackground';
-import TonyStarkAvatar from './TonyStarkAvatar';
+
 import TypeWriter from './TypeWriter';
 import { mockData } from '../data/mockData';
 
