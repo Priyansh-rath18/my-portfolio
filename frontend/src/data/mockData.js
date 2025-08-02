@@ -48,34 +48,27 @@ export const mockData = {
     }
   ],
 
-  certificates: [
+  achievements: [
     {
-      title: "Machine Learning Specialist",
-      issuer: "Google Cloud Platform",
+      title: "Build Real World AI Applications with Gemini and Imagen",
+      issuer: "Google Cloud",
       date: "2024",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop&auto=format",
-      description: "Advanced certification in machine learning and AI model development"
+      image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?w=400&h=300&fit=crop&auto=format",
+      description: "Machine Learning & AI - Skill Badge (Introductory level certification)"
     },
     {
-      title: "Data Science Professional",
-      issuer: "IBM",
-      date: "2024", 
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format",
-      description: "Comprehensive data science and analytics certification"
+      title: "Prompt Design in Vertex AI",
+      issuer: "Google Cloud", 
+      date: "2024",
+      image: "https://images.unsplash.com/photo-1516110833967-0b5716ca75e1?w=400&h=300&fit=crop&auto=format",
+      description: "Machine Learning & AI - Skill Badge (Introductory level certification)"
     },
     {
-      title: "AI Engineer Certification",
-      issuer: "Microsoft Azure",
-      date: "2023",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&auto=format",
-      description: "Expert-level AI and machine learning services certification"
-    },
-    {
-      title: "Python for Data Science",
-      issuer: "DataCamp",
-      date: "2023",
-      image: "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?w=400&h=300&fit=crop&auto=format", 
-      description: "Advanced Python programming for data analysis and visualization"
+      title: "Building with Llama 4",
+      issuer: "Meta",
+      date: "2024",
+      image: "https://images.unsplash.com/photo-1525373612132-b3e820b57ba8?w=400&h=300&fit=crop&auto=format", 
+      description: "Short Course - Building multimodal and long-context GenAI applications using Llama 4 open models, API, and Llama tools"
     }
   ],
 
