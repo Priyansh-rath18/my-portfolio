@@ -17,7 +17,7 @@ const PortfolioPage = () => {
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
-  const certificatesRef = useRef(null);
+  const achievementsRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
