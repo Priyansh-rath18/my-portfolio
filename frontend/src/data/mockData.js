@@ -45,6 +45,37 @@ export const mockData = {
     }
   ],
 
+  certificates: [
+    {
+      title: "Machine Learning Specialist",
+      issuer: "Google Cloud Platform",
+      date: "2024",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop&auto=format",
+      description: "Advanced certification in machine learning and AI model development"
+    },
+    {
+      title: "Data Science Professional",
+      issuer: "IBM",
+      date: "2024", 
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format",
+      description: "Comprehensive data science and analytics certification"
+    },
+    {
+      title: "AI Engineer Certification",
+      issuer: "Microsoft Azure",
+      date: "2023",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&auto=format",
+      description: "Expert-level AI and machine learning services certification"
+    },
+    {
+      title: "Python for Data Science",
+      issuer: "DataCamp",
+      date: "2023",
+      image: "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?w=400&h=300&fit=crop&auto=format", 
+      description: "Advanced Python programming for data analysis and visualization"
+    }
+  ],
+
   projects: [
     {
       title: "Resume Analyzer AI",
