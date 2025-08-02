@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, Code, Database, Brain, Cpu, BarChart3, MessageSquare } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code, Database, Brain, Cpu, BarChart3, MessageSquare, Award } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardHeader, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
