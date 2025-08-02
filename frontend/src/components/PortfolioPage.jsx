@@ -66,9 +66,22 @@ const PortfolioPage = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleGlitchComplete = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white overflow-x-hidden">
-      <ParticleBackground />
+      <GlitchLoader isVisible={isLoading} onComplete={handleGlitchComplete} />
+      
+      <AnimatePresence>
+        {!isLoading && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <ParticleBackground />
       
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-950/50 border-b border-blue-500/20">
