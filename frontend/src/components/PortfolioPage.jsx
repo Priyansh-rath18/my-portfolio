@@ -105,11 +105,12 @@ const PortfolioPage = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 via-purple-900/20 to-blue-900/20"></div>
         
-        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="container mx-auto px-6 text-center relative z-10">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="max-w-4xl mx-auto"
           >
             <h1 className="text-5xl lg:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
@@ -130,12 +131,12 @@ const PortfolioPage = () => {
               />
             </div>
             
-            <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl mx-auto">
               Transforming data into insights and building intelligent AI solutions. 
               Passionate about generative AI, agentic systems, and creating interactive dashboards that tell compelling data stories.
             </p>
             
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0"
@@ -152,15 +153,6 @@ const PortfolioPage = () => {
                 Get In Touch
               </Button>
             </div>
-          </motion.div>
-          
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex justify-center"
-          >
-            <TonyStarkAvatar />
           </motion.div>
         </div>
       </motion.section>
