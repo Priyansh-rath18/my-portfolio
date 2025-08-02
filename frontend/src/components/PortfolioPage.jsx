@@ -12,6 +12,7 @@ import { mockData } from '../data/mockData';
 
 const PortfolioPage = () => {
   const [currentSection, setCurrentSection] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
   const { scrollYProgress } = useScroll();
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
