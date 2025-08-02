@@ -285,10 +285,10 @@ const PortfolioPage = () => {
         </div>
       </motion.section>
 
-      {/* Certificates Section */}
+      {/* Achievements Section */}
       <motion.section 
-        ref={certificatesRef}
-        style={{ y: certificatesY }}
+        ref={achievementsRef}
+        style={{ y: achievementsY }}
         className="py-20 relative"
       >
         <div className="container mx-auto px-6">
@@ -300,16 +300,16 @@ const PortfolioPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-              Certifications & Achievements
+              Achievements & Recognition
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-8"></div>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Professional certifications that validate my expertise in data science, AI, and machine learning technologies.
+              Professional achievements and skill badges that validate my expertise in AI, machine learning, and cutting-edge technologies.
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-            {mockData.certificates.map((certificate, index) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {mockData.achievements.map((achievement, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
@@ -325,23 +325,23 @@ const PortfolioPage = () => {
                 <Card className="bg-gradient-to-br from-slate-800/60 to-blue-900/40 border-blue-500/30 backdrop-blur-sm hover:border-blue-400/60 transition-all duration-300 overflow-hidden h-full">
                   <div className="relative h-48 overflow-hidden">
                     <img 
-                      src={certificate.image} 
-                      alt={certificate.title}
+                      src={achievement.image} 
+                      alt={achievement.title}
                       className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                     <div className="absolute top-4 right-4">
                       <Badge className="bg-blue-500/80 text-white border-0">
                         <Award className="w-3 h-3 mr-1" />
-                        {certificate.date}
+                        {achievement.date}
                       </Badge>
                     </div>
                   </div>
                   
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-white mb-2">{certificate.title}</h3>
-                    <p className="text-blue-400 font-semibold mb-3">{certificate.issuer}</p>
-                    <p className="text-gray-300 text-sm leading-relaxed">{certificate.description}</p>
+                    <h3 className="text-lg font-bold text-white mb-2 leading-tight">{achievement.title}</h3>
+                    <p className="text-blue-400 font-semibold mb-3">{achievement.issuer}</p>
+                    <p className="text-gray-300 text-sm leading-relaxed">{achievement.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
