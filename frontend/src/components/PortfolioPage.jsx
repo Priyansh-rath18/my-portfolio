@@ -24,7 +24,7 @@ const PortfolioPage = () => {
   // Parallax transforms
   const heroY = useTransform(scrollYProgress, [0, 1], [0, -200]);
   const skillsY = useTransform(scrollYProgress, [0.3, 0.7], [100, -100]);
-  const certificatesY = useTransform(scrollYProgress, [0.4, 0.8], [80, -80]);
+  const achievementsY = useTransform(scrollYProgress, [0.4, 0.8], [80, -80]);
   const projectsY = useTransform(scrollYProgress, [0.6, 1], [50, -150]);
 
   // Skills icons mapping
