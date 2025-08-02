@@ -516,6 +516,9 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </footer>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
