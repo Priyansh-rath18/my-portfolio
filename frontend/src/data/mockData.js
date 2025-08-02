@@ -19,7 +19,10 @@ export const mockData = {
     "agentic ai",
     "interactive dashboard making",
     "data story telling",
-    "mysql"
+    "mysql",
+    "prompt engineering",
+    "vertex ai",
+    "cursor ai"
   ],
 
   highlights: [
