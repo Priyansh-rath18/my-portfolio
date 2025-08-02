@@ -7,6 +7,7 @@ import { Badge } from './ui/badge';
 import ParticleBackground from './ParticleBackground';
 
 import TypeWriter from './TypeWriter';
+import GlitchLoader from './GlitchLoader';
 import { mockData } from '../data/mockData';
 
 const PortfolioPage = () => {
